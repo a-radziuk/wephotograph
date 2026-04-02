@@ -614,6 +614,36 @@ main {
     5px 5px 0 rgba(0, 0, 0, 0.55);
 }
 
+.btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.form-status {
+  display: none;
+  margin-bottom: 1.25rem;
+  padding: 0.85rem 1rem;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.form-status.is-visible {
+  display: block;
+}
+
+.form-status--success {
+  border-color: rgba(201, 169, 98, 0.45);
+  color: var(--text);
+}
+
+.form-status--error {
+  border-color: rgba(200, 90, 90, 0.55);
+  color: #e8c4c4;
+}
+
 /* ——— Shooting / Instagram ——— */
 .shooting-block {
   text-align: center;
