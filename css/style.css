@@ -343,6 +343,10 @@ main {
   transition: opacity 0.25s ease;
 }
 
+.gallery-item--top .gallery-item__trigger img {
+  object-position: center top;
+}
+
 .gallery-item:hover .gallery-item__trigger img {
   opacity: 0.92;
 }
