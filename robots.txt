@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace https://we-photograph.com with your production domain if different.
+Sitemap: https://we-photograph.com/sitemap.xml
