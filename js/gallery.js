@@ -15,6 +15,9 @@
   var currentIndex = 0;
 
   function fullSizeUrl(src) {
+    if (!src || src.indexOf("images.unsplash.com") === -1) {
+      return src;
+    }
     try {
       var u = new URL(src, window.location.href);
       u.searchParams.set("w", "1600");
